@@ -1,0 +1,40 @@
+.content-section {
+  width: 80%;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-header {
+  padding: 3rem 0;
+  border: 1px solid red;
+  width: 100%;
+  flex-grow: 0;
+  height: 7rem;
+  line-height: 1rem;
+}
+
+.content-body {
+  width: 90%;
+}
+.content-right {
+  width: 10%;
+  border: 1px solid red;
+  height: 100%;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .content-section {
+    margin-top: 7rem;
+    width: 100%;
+  }
+  .content-header {
+    display: none;
+  }
+  .content-right {
+    display: none;
+  }
+  .content-body {
+    width: 100%;
+  }
+}

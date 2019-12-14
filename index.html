@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/style/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <script src="https://kit.fontawesome.com/371cf8a2ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <!--preload section-->
+        <div class="preload-wraper">
+            <div class="preload-content">
+                <h2>Loading...</h2>
+                <div class="preload-bar">
+                </div>
+            </div>
+        </div>
+        <!--End preload section-->
+        <!--navbar section-->
+        <nav class="main-nav">
+            <div class="nav-header">
+                <div class="logo">
+                    <div>
+                        <h2>TH</h2>
+                    </div>
+                    <div>
+                        <h3>I can do</h3>
+                        <h4>Every thing</h4>
+                    </div>
+                    <a href="#" style="width: 100%; height: 100%;position: absolute;"></a>
+                </div>
+                <div class="nav-bars">
+                    <i class="fa fa-bars nav-activated"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <ul class="nav-items">
+                <li class="nav-item"><i class="fa fa-home"></i> <a href="">Home</a> </li>
+                <li class="nav-item"><i class="fa fa-info-circle"></i><a href="">About</a> </li>
+                <li class="nav-item"><i class="far fa-list-alt"></i><a href="">Projects</a> </li>
+                <li class="nav-item"><i class="fas fa-phone"></i><a href="">Contact</a> </li>
+                <li class="nav-item"><i class="fas fa-book-open"></i><a href="">More</a> </li>
+            </ul>
+            <div class='author'>PORTFOLIO BY <span>TRANHOANG</span> </div>
+        </nav>
+        <!--End navbar section-->
+        <div class="content-section">
+            <!--header-->
+            <div class="content-header">
+                header
+            </div>
+            <!--end header-->
+            <div class="content-body">
+                <div class="home">
+                    <div class="home-content">
+                        <h1>XIN CHÀO, TÔI LÀ <span>TRẦN HOÀNG.</span></h1>
+                        <h1>Tôi là Front-end web developer</h1>
+                    </div>
+                    <div>
+                        <span> Hiểu thêm về tôi</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content-right">
+                sdfgagsdfg
+            </div>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        setTimeout(() => {
+            document.querySelector(".preload-wraper").remove();
+        }, 2500);
+    </script>
+
+</body>
+
+</html>
